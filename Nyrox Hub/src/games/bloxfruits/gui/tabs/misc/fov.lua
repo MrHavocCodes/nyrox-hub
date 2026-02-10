@@ -1,0 +1,2 @@
+-- FOV functionality is implemented directly in main_window.lua
+-- This file is reserved for future FOV-related logic if needed
