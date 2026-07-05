@@ -6,12 +6,12 @@
 -- ============================================
 
 -- CONFIGURATION: Change these to your GitHub details
-local Owner = "MrHavocCodes"  -- Your GitHub username
-local Repo = "s"            -- Your repository name  
-local Branch = "main"               -- Branch (usually "main" or "master")
+local Owner = "MrHavocCodes"
+local Repo = "nyrox-hub" -- put your actual repo name here
+local Branch = "main"
 
--- Auto-construct base URL
-local BaseUrl = string.format("https://raw.githubusercontent.com/%s/%s/%s/", Owner, Repo, Branch)
+local BaseUrl = ("https://raw.githubusercontent.com/%s/%s/%s/")
+    :format(Owner, Repo, Branch)
 
 -- ============================================
 -- HTTP GET WRAPPER (Multi-Executor Support)
