@@ -8,7 +8,7 @@ local Main = {}
 -- ========================================
 
 Main.Version = "2.0.0"
-Main.BaseUrl = "https://raw.githubusercontent.com/username/repo/main/"
+Main.BaseUrl = "https://raw.githubusercontent.com/MrHavocCodes/repo/main/"
 
 -- ========================================
 -- INIT FUNCTION
