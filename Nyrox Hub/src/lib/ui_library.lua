@@ -18,7 +18,7 @@ if type(getgenv) == "function" and getgenv().Import then
 else
     -- warn("[UI Library] getgenv().Import not available, trying fallback...")
     local success, result = pcall(function()
-        return loadstring(game:HttpGet("https://raw.githubusercontent.com/username/repo/main/src/lib/assets.lua"))()
+        return loadstring(game:HttpGet("https://raw.githubusercontent.com/MrHavocCodes/repo/main/src/lib/assets.lua"))()
     end)
     if success and result then
         Assets = result
