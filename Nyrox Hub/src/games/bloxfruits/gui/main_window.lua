@@ -9,7 +9,7 @@ else
     if not Library then
         pcall(function()
             -- Prüfe, ob dein GitHub-Link korrekt ist!
-            Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/MrHavocCodes/repo/main/src/lib/ui_library.lua"))() 
+            Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/MrHavocCodes/nyrox-hub/refs/heads/main/Nyrox%20Hub/src/lib/ui_library.lua"))() 
         end)
     end
 end
