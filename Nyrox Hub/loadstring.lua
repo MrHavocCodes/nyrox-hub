@@ -3,7 +3,7 @@
 -- ============================================
 -- Copy and paste this into your executor:
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/YourGitHubUsername/nyrox-hub/main/src/hosted_loader.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MrHavocCodes/nyrox-hub/main/src/hosted_loader.lua"))()
 
 -- ============================================
 -- SETUP INSTRUCTIONS:
