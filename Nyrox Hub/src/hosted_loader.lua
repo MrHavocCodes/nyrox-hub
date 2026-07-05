@@ -6,8 +6,8 @@
 -- ============================================
 
 -- CONFIGURATION: Change these to your GitHub details
-local Owner = "YourGitHubUsername"  -- Your GitHub username
-local Repo = "nyrox-hub"            -- Your repository name  
+local Owner = "MrHavocCodes"  -- Your GitHub username
+local Repo = "s"            -- Your repository name  
 local Branch = "main"               -- Branch (usually "main" or "master")
 
 -- Auto-construct base URL
